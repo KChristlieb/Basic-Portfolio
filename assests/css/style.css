@@ -1,0 +1,18 @@
+body {
+    background-image: url("./cork-wallet/cork-wallet.png");
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333333;
+    margin: 0px;
+    padding: 0px;
+    line-height: 150%;
+    font-size: 18px;
+}
+
+h1 {
+    color: blue;
+    float: right;
+}
+.nav-bar {
+    float: right;
+    float: top;
+}
