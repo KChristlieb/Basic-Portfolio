@@ -3,38 +3,50 @@
 <html lang="en-us">
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="assets/css/reset.css" type="text/css">
         <link rel="stylesheet" href="assets/css/style.css" type="text/css">
         <title>Kade Christlieb Profile</title>
-    </head>
+        </head>
 
     <body>
 
-        <header>
-            <h1>Kade Christlieb</h1>
-            <nav class="nav-bar>
-                <a href="index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
-             </nav>
+        <header id="top_bar">
+            <div class="container">
+                <a href="index.html" id="name"><h1>Kade Christlieb</h1></a>
+                <nav class="nav-bar">
+                    <ul>
+                        <li><a href="index.html">About</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
-
+       
        
         
-        <div>
+        <div id="main-container" class="container">
 
-            <section>
+            <section class="main">
 
                 <h2>Contact</h2>
 
-                <form>
-                    Name<br/>
-                    <input type="text" name="Name">
-                    <br/>
-                    Email<br/>
-                    <input type="text" name="Email">
-                    <br/>
-                    Message<br/>
-                    <input type="text" name="Message">
+                <form id="contact-form">
+                    <ul>
+                        <li>
+                            <label for="name">Name</label>
+                            <input type="text" name="name" id="name" placeholder="Jonh Smith" required="required"></textarea>
+                        </li>
+                        <li>
+                            <label for="name">Email</label>
+                            <input type="text" name="email" id="email" placeholder="enter_here@gmail.com" required="required"></textarea>
+                        </li>
+                        <li>
+                            <label for="message">Message</label>
+                            <textarea id="message" name="Message" required="required"></textarea>
+                        </li>
+                    </ul>
+                    <input type="submit" name="submit">
                 </form>
 
             </section>
