@@ -63,6 +63,10 @@ h2 {
     text-decoration: none;
 }
 
+#name:hover {
+    background-color: #666666;
+}
+
 nav {
     float: right;
     margin-top: 75px;
@@ -76,6 +80,12 @@ nav a {
     border-left: 1px solid #4aaaa5;
     padding-left: 15px;
     line-height: 18px;
+}
+
+nav a:hover {
+    background-color: #4aaaa5;
+    padding-right: 15px;
+    font-size: 24px;
 }
 
 nav a:first-child {
@@ -148,6 +158,10 @@ footer {
     margin-bottom: 0;
     line-height: 30px;
     position: absolute;
+}
+
+.projects h3:hover {
+    background-color: #666666;
 }
 
 
