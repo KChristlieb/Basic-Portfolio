@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+html body{
+    height: 100%;
+    margin: 0;
+}
+
 body {
     background: url('../images/cork-wallet.png');
     font-size: 18px;
@@ -15,6 +20,8 @@ body {
     max-width: 960px;
     margin: 0 auto;
     clear: both;
+    min-height: 100%;
+    margin-bottom: -50px;
 }
 
 h2,p  {
@@ -102,6 +109,10 @@ nav a:first-child {
 }
 
 /* Footer */
+
+.push footer {
+    height: 50px;
+}
 
 footer {
     background-color: #666666;
