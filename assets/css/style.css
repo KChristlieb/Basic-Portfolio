@@ -100,8 +100,8 @@ nav a:first-child {
 }
 
 .page-image {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     margin-top: 10px;
     float: left;
     margin-right: 25px;
@@ -144,7 +144,7 @@ footer {
     text-align: center;
     bottom: 20px;
     padding: 15px;
-    width: 73.5%;
+    width: 250px;
     margin-bottom: 0;
     line-height: 30px;
     position: absolute;
