@@ -40,7 +40,7 @@ h2 {
     color: #ffffff;
     overflow: auto;
     border-bottom: 2px solid #cccccc;
-    /*position: fixed;*/
+    position: fixed;
     width: 100%;
 }
 
@@ -80,7 +80,7 @@ nav a:first-child {
 /*MainBody*/
 
 #main-container {
-    padding-top: 30px;
+    padding-top: 170px;
 }
 
 .main {
