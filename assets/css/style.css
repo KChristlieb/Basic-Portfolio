@@ -83,9 +83,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #4aaaa5;
-    padding-right: 15px;
-    font-size: 24px;
+    color: black;
 }
 
 nav a:first-child {
